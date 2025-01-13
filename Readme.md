@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
 * Студент: [Мария Гаврилова](https://up.htmlacademy.ru/adaptive-individual/2/user/2515573).
-* Наставник: `Ярослав Шевцов`.
+* Наставник: [Ярослав Шевцов](https://htmlacademy.ru/profile/redx).
 
 ---
 
