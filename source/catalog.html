@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Каталог магазина Cat Energy</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="styles/styles.css">
+  <script src="scripts/index.js" defer></script>
+</head>
+
+<body class="page__body">
+  <header class="main-header">
+    <a class="main-header__logo" href="#">
+      <img class="main-header__logo-image" src="images/logo-desktop.svg" width="202" height="59" alt="Логотип сайта Cat Energy">
+    </a>
+    <nav class="main-nav">
+      <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item site-list__item--current">
+            <a href="#">ГЛАВНАЯ</a>
+          </li>
+          <li class="site-list__item">
+            <a href="catalog.html">КАТАЛОГ ПРОДУКЦИИ</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">ПОДБОР ПРОГРАММЫ</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="main-catalog">
+    <section class="production">
+      <h1 class="main-catalog__title">Каталог продукции</h1>
+      <ul class="production__list">
+        <li class="production__item">
+          <p class="production__name">Cat Energy PRO 500 г</p>
+          <div class="production__wrapper-left">
+            <p class="production__description">Масса</p>
+            <p class="production__description">Вкус</p>
+            <p class="production__description">Цена</p>
+          </div>
+          <div class="production__wrapper-right">
+            <p class="production__description">500 г</p>
+            <p class="production__description">Курица</p>
+            <p class="production__description">700 ₽</p>
+          </div>
+          <button class="production__btn" type="button">Заказать</button>
+        </li>
+      </ul>
+    </section>
+    <section class="additional">
+      <h2 class="additional__subtitle">Дополнительные товары</h2>
+      <ul class="additional__list">
+        <li class="additional__item">
+          <div class="additional__wrapper">
+            <p class="additional__description">САХАРОЗАМЕНИТЕЛЬ</p>
+            <p class="additional__description">1 упаковка (100 г)</p>
+            <p class="additional__description">200 ₽</p>
+          </div>
+          <button class="additional__btn" type="button">Заказать</button>
+        </li>
+      </ul>
+    </section>
+    <section class="gift">
+      <h2 class="visually-hidden">Подарок при заказе товаров</h2>
+      <p class="gift__description">Закажите все и получите чехол для кота в подарок!</p>
+    </section>
+    <section class="promotions">
+      <h2 class="promotions__subtitle">Акции и новинки</h2>
+      <p class="promotions__description">Подпишитесь на наши новости и не пропустите ни одного предложения!</p>
+      <form class="promotions__form" action="https://echo.htmlacademy.ru/" method="post">
+        <label class="visually-hidden" for="promotions-email">Ваш e-mail</label>
+        <input class="promotions__field" placeholder="kuklachev@gmail.com" type="email" name="promotions-email" id="promotions-email" required>
+        <button class="promotions__btn" type="submit">Подписаться</button>
+      </form>
+    </section>
+  </main>
+  <footer class="catalog-footer">
+    <div class="catalog-footer__wrapper">
+      <div class="catalog-footer__contacts contacts">
+        <p class="contacts__invitation">ПРИГЛАШАЕМ К СОТРУДНИЧЕСТВУ ДИЛЕРОВ!</p>
+        <address class="contacts__address">
+          ул. Большая Конюшенная, д. 19/8 Санкт-Петербург
+        </address>
+      </div>
+      <a class="catalog-footer__logo" href="#">
+        <img class="catalog-footer__logo-image" src="images/logo-footer.svg" width="128" height="24" alt="Название логотипа сайта Cat Energy">
+      </a>
+      <div class="catalog-footer__social social">
+        <ul class="social__list">
+          <li class="social__item">
+            <a class="social__link" href="#">Vkontakte</a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#">Youtube</a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#">Telegram</a>
+          </li>
+        </ul>
+      </div>
+      <div class="catalog-footer__copyright copyright">
+        <p class="copyright__title">HTML Academy</p>
+        <img class="copyright__logo" src="images/html-logo.svg" width="27" height="34" alt="Логотип HTML Academy">
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
