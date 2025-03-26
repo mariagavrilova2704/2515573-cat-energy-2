@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Oswald";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/oswald/oswaldregular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Lato";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/lato/Lato-Regular.woff2") format("woff2");
+}
+
+.page__body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+
+@media (min-width: $tablet-width) {
+  order: 2;
+  height: 400px;
+
+  background-color: #FFFFFF;
+  background-image: url("../images/bg-header.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% -9px;
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("../images/bg-header@2x.jpg");
+    background-size: 1338px auto;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  height: 648px;
+}
+

@@ -6,13 +6,22 @@
   <title>Cat Energy</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="styles/styles.css">
-  <script src="scripts/index.js" defer></script>
+
+  <!-- <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="favicons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="favicons/apple.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <script src="scripts/index.js" defer></script> -->
 </head>
 
 <body class="page__body">
   <header class="main-header">
     <a class="main-header__logo" href="#">
-      <img class="main-header__logo-image" src="images/logo-desktop.svg" width="202" height="59" alt="Логотип сайта Cat Energy">
+      <picture>
+        <source media="(min-width: 1440px)" width="202" height="59" type="image/svg+xml" srcset="images/logo-desktop.svg">
+        <source media="(min-width: 768px)" width="174" height="50" type="image/svg+xml" srcset="images/logo-tablet.svg">
+        <img src="images/logo-mobile.svg" width="320" height="38" alt="Магазин Cat Energy">
+      </picture>
     </a>
     <nav class="main-nav">
       <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
@@ -106,6 +115,9 @@
         <span>затрачено времени</span>
         <p class="example__cost">ЗАТРАТЫ НА ПИТАНИЕ:</p>
         <p class="example__money">15 000 РУБ.</p>
+      </div>
+      <div class="example__slider">
+        <span>Слайдер с котами</span>
       </div>
     </section>
   </main>
