@@ -13,24 +13,3 @@
   font-size: 16px;
 }
 
-.main-header {
-@media (min-width: $tablet-width) {
-  order: 2;
-  height: 400px;
-
-  background-color: #FFFFFF;
-  background-image: url("../../images/cat1.svg");
-  background-repeat: no-repeat;
-  background-position: 50% -9px;
-
-  @media (min-resolution: 2dppx) {
-    background-image: url("../../images/cat1.svg");
-    background-size: 1338px auto;
-  }
-}
-
-@media (min-width: $desktop-width) {
-  height: 648px;
-}
-}
-
