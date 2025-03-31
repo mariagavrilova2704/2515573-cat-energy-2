@@ -15,9 +15,12 @@
 
 <body class="page__body">
   <header class="main-header">
-    <a class="main-header__logo" href="#">
-      <img class="main-header__logo-image" src="images/logo-desktop.svg" width="202" height="59" alt="Логотип сайта Cat Energy">
-    </a>
+    <picture>
+      <source media="(min-width: 1440px)" width="202" height="59" type="image/svg+xml" srcset="images/logo-desktop.svg">
+      <source media="(min-width: 768px)" width="174" height="50" type="image/svg+xml" srcset="images/logo-tablet.svg">
+      <img src="images/logo-mobile.svg" width="320" height="38" alt="Магазин Cat Energy">
+    </picture>
+
     <nav class="main-nav">
       <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
       <div class="main-nav__wrapper">
