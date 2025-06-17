@@ -1,4 +1,14 @@
-.additional {}
+.additional {
+
+}
+
+.additional__box {
+  display: flex;
+}
+
+.additional__container {
+  height: 288px;
+}
 
 .additional__subtitle {
   margin: 0;
@@ -20,7 +30,13 @@
 }
 
 .additional__wrapper {
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 434px;
+  width: 896px;
+  padding: 15px;
+  border-top: 1px solid #cdcdcd;
 }
 
 .additional__title {
@@ -74,10 +90,14 @@
 }
 
 .additional__gift {
-
+  background-color: rgba(104, 183, 56, 0.85);
 }
 
-.text-add {
+.additional__picture {
+  background-color: rgba(104, 183, 56, 0.85);
+}
+
+.additional__description--text {
   color: #ffffff;
   background-color: $bg-basic-green;
 

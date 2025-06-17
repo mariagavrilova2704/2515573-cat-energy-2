@@ -1,7 +1,12 @@
 .main-header {
+  display: flex;
+  padding-bottom: 74px;
+  padding-top: 55px;
+  align-items: center;
+
   @media (min-width: $tablet-width) {
     order: 2;
-    height: 400px;
+    height: 59px;
 
     background-color: #ffffff;
     background-image: url("../../images/cat1.svg");
@@ -20,4 +25,5 @@
 }
 
 .main-header__logo {
+  padding-left: 110px;
 }

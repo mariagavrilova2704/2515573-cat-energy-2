@@ -26,29 +26,43 @@
   font-size: 14px;
   line-height: 18px;
 
+  &::before {
+    content: "";
+    width: 60px;
+    height: 60px;
+    display: block;
+    background-color: #68b738;
+    background-position: center;
+    // background-size: 25px;
+    background-repeat: no-repeat;
+  }
+
+
   @media (min-width: $tablet-width) {
     font-size: 16px;
     line-height: 24px;
+
+    &::before {
+      content: "";
+      width: 80px;
+      height: 80px;
+    }
   }
 }
 
-
-.steps--leaf {
-  mask-image: url("../../icons/icon-leaf.svg");
-  background-color: #68b738;
-  mask-size: 80px 80px;
-  mask-position: left center;
+.steps__item--leaf::before {
+  background-image: url("../../icons/stack.svg#icon-leaf");
 }
 
 
-.steps--powder {
-
+.steps__item--powder::before {
+  background-image: url("../../icons/stack.svg#icon-powder");
 }
 
-.steps--eat {
-
+.steps__item--eat::before {
+  background-image: url("../../icons/stack.svg#icon-eat");
 }
 
-.steps--clock {
-
+.steps__item--clock::before {
+  background-image: url("../../icons/stack.svg#icon-clock");
 }

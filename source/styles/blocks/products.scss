@@ -1,9 +1,4 @@
 .products {
-
-}
-
-.products__weightloss {
-
 }
 
 .products__subtitle {
@@ -18,6 +13,25 @@
     font-size: 36px;
     line-height: 36px;
   }
+}
+
+.products__weight {
+  &::before {
+    content: "";
+    width: 60px;
+    height: 60px;
+    display: block;
+    background-color: #68b738;
+    background-position: center;
+    background-size: 25px;
+    background-repeat: no-repeat;
+  }
+}
+
+.products__weightloss::before {
+}
+
+.products__weightgain {
 }
 
 .products__description {
@@ -45,8 +59,4 @@
     font-size: 20px;
     line-height: 100%;
   }
-}
-
-.products__weightgain {
-
 }

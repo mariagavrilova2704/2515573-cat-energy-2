@@ -1,5 +1,9 @@
 .site-list {
   margin: 0;
+  display: flex;
+  gap: 33px;
+  padding-right: 33px;
+  padding-left: 540px;
 }
 
 .site-list__item {
@@ -29,11 +33,33 @@
 }
 
 .site-list__item--current {
-}
-
-.catalog-nav {
-  @media (min-width: $desktop-width) {
-    color: #111111;
-    background-color: #ffffff;
+  &::before {
+    content: "";
+    height: 6px;
+    background-color: #68b738;
+    background-position: center;
+    background-size: 25px;
   }
 }
+
+.site-list__item--catalog {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+  text-decoration: none;
+
+  @media (min-width: $tablet-width) {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 20px;
+    line-height: 100%;
+    color: #111111;
+    text-decoration: none;
+  }
+}
+

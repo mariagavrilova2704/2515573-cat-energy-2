@@ -1,5 +1,20 @@
 .production {
+  @media (min-width: $tablet-width) {
+    display: grid;
+    grid-template-columns: 340px 340px;
+    gap: 60px 60px;
+    padding-top: 84px;
+    padding-bottom: 71px;
+    text-align: center;
+  }
 
+  @media (min-width: $desktop-width) {
+    display: grid;
+    grid-template-columns: 245px 245px 245px 245px;
+    gap: 63px 80px;
+    padding-top: 84px;
+    padding-bottom: 71px;
+  }
 }
 
 .production__subtitle {
@@ -9,6 +24,8 @@
   font-size: 16px;
   line-height: 20px;
   color: #222222;
+  padding-left: 53px;
+  padding-right: 52px;
 
   @media (min-width: $tablet-width) {
     font-size: 20px;
@@ -17,13 +34,17 @@
 }
 
 .production__card {
+}
 
+.production__color {
+  background-color: #f2f2f2;
 }
 
 .production__table {
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
+  margin: 0 auto;
 
   @media (min-width: $tablet-width) {
     font-size: 16px;
@@ -33,6 +54,7 @@
 
 .production__btn {
   width: 280px;
+  margin-bottom: 40px;
 
   @media (min-width: $tablet-width) {
     width: 250px;
