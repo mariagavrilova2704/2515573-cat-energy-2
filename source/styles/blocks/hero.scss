@@ -9,13 +9,11 @@
   font-size: 36px;
   line-height: 36px;
   color: #ffffff;
-  background-color: $bg-basic-green;
 
   @media (min-width: $tablet-width) {
     font-size: 60px;
     line-height: 60px;
     color: #000000;
-    background-color: #ffffff;
   }
 }
 
@@ -26,14 +24,12 @@
   font-size: 14px;
   line-height: 14px;
   color: #ffffff;
-  background-color: $bg-basic-green;
   text-transform: uppercase;
 
   @media (min-width: $tablet-width) {
     font-size: 20px;
     line-height: 20px;
     color: #000000;
-    background-color: #ffffff;
     text-transform: uppercase;
   }
 }

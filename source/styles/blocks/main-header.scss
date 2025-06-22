@@ -1,29 +1,40 @@
-.main-header {
+.main-header__row {
   display: flex;
   padding-bottom: 74px;
   padding-top: 55px;
   align-items: center;
 
   @media (min-width: $tablet-width) {
-    order: 2;
-    height: 59px;
 
-    background-color: #ffffff;
-    background-image: url("../../images/cat1.svg");
-    background-repeat: no-repeat;
-    background-position: 50% -9px;
-
-    @media (min-resolution: 2dppx) {
-      background-image: url("../../images/cat1.svg");
-      background-size: 1338px auto;
-    }
   }
 
   @media (min-width: $desktop-width) {
-    // height: 648px;
+    justify-content: space-between;
   }
 }
 
+.main-header--index {
+  @media (min-width: $desktop-width) {
+    color: #ffffff;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 50%;
+      height: 694px;
+      display: block;
+      background-color: #64a73d;
+      background-position: right;
+      background-image: url("../../images/hero-desktop@2x.jpg");
+      background-repeat: no-repeat;
+      z-index: -1;
+    }
+  }
+}
+
+
 .main-header__logo {
-  padding-left: 110px;
+
 }
