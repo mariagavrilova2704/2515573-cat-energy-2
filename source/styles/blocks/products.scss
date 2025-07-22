@@ -1,4 +1,5 @@
 .products {
+  display: flex;
 }
 
 .products__subtitle {
@@ -16,6 +17,10 @@
 }
 
 .products__weight {
+  background-color: #f2f2f2;
+}
+
+.products__weight {
   &::before {
     content: "";
     width: 60px;
@@ -28,7 +33,15 @@
   }
 }
 
-.products__weightloss::before {
+.products__weightloss {
+  content: "";
+  width: 60px;
+  height: 60px;
+  display: block;
+  background-image: url("../../images/black-cat-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25px;
 }
 
 .products__weightgain {

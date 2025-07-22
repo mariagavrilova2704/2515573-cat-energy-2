@@ -2,6 +2,12 @@
 
 }
 
+.steps__list {
+  display: flex;
+  margin: 0;
+  list-style-type: none;
+}
+
 .steps__title {
   margin: 0;
   font-family: "Oswald", sans-serif;
@@ -16,10 +22,6 @@
   }
 }
 
-.steps__list {
-  margin: 0;
-  list-style-type: none;
-}
 
 .steps__item {
   font-weight: 400;
