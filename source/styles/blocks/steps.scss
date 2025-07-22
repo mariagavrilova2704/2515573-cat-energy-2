@@ -6,6 +6,7 @@
   display: flex;
   margin: 0;
   list-style-type: none;
+  gap: 94px;
 }
 
 .steps__title {
@@ -21,7 +22,6 @@
     line-height: 60px;
   }
 }
-
 
 .steps__item {
   font-weight: 400;
@@ -39,7 +39,6 @@
     background-repeat: no-repeat;
   }
 
-
   @media (min-width: $tablet-width) {
     font-size: 16px;
     line-height: 24px;
@@ -54,17 +53,21 @@
 
 .steps__item--leaf::before {
   background-image: url("../../icons/stack.svg#icon-leaf");
+  margin-bottom: 31px;
 }
 
 
 .steps__item--powder::before {
   background-image: url("../../icons/stack.svg#icon-powder");
+  margin-bottom: 31px;
 }
 
 .steps__item--eat::before {
   background-image: url("../../icons/stack.svg#icon-eat");
+  margin-bottom: 31px;
 }
 
 .steps__item--clock::before {
   background-image: url("../../icons/stack.svg#icon-clock");
+  margin-bottom: 31px;
 }
