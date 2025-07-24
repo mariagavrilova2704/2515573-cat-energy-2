@@ -18,9 +18,14 @@
     <header class="main-header">
       <a class="main-header__logo" href="#">
         <picture>
-          <source media="(min-width: 1440px)" width="202" height="59" type="image/svg+xml" srcset="images/logo-desktop.svg">
-          <source media="(min-width: 768px)" width="174" height="50" type="image/svg+xml" srcset="images/logo-tablet.svg">
-          <img src="images/logo-mobile.svg" width="320" height="38" alt="Логотип магазина Cat Energy">
+          <source media="(min-width: 1440px)" width="70" height="59" type="image/svg+xml" srcset="images/logo-desktop.svg">
+          <source media="(min-width: 768px)" width="60" height="50" type="image/svg+xml" srcset="images/logo-tablet.svg">
+          <img src="images/logo-mobile.svg" width="33" height="38" alt="Логотип магазина Cat Energy">
+        </picture>
+        <picture>
+          <source media="(min-width: 1440px)" width="118" height="21" type="image/svg+xml" srcset="images/logo-text-desktop.svg">
+          <source media="(min-width: 768px)" width="101" height="18" type="image/svg+xml" srcset="images/logo-text-tablet.svg">
+          <img src="images/logo-text-mobile.svg" width="101" height="20" alt="Название магазина Cat Energy">
         </picture>
       </a>
       <nav class="main-nav">
@@ -43,10 +48,10 @@
     <main class="main-catalog">
       <h1 class="main-catalog__title">Каталог продукции</h1>
       <section class="production">
-        <div class="production__card">
+        <div class="production__card card">
           <picture>
             <source width="161" height="172" type="image/png" media="(min-width: 768px)" srcset="images/products/card-chicken-500-tablet@1x.png 1x, images/products/card-chicken-500-tablet@2x.png 2x">
-            <img src="images/products/card-chicken-500-mobile@1x.png" srcset="images/products/card-chicken-500-mobile@2x.png 2x" width="68" height="86" alt="Продукт Cat Energy Chicken 500 Г">
+            <img class="card__image" src="images/products/card-chicken-500-mobile@1x.png" srcset="images/products/card-chicken-500-mobile@2x.png 2x" width="68" height="86" alt="Продукт Cat Energy Chicken 500 Г">
           </picture>
           <div class="production__color">
             <h3 class="production__subtitle">CAT ENERGY PRO 500 Г</h3>
