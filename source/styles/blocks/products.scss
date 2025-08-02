@@ -12,7 +12,7 @@
 .products__subtitle {
   position: relative;
   margin: 0;
-  font-family: "Oswald", sans-serif;
+  font-family: $primary-font;
   font-weight: 400;
   font-size: 24px;
   line-height: 37px;
@@ -58,6 +58,7 @@
 }
 
 .products__description {
+  font-family: $secondary-font;
   margin: 0;
   font-weight: 400;
   font-size: 14px;
@@ -71,7 +72,7 @@
 }
 
 .products__link {
-  font-family: "Oswald", sans-serif;
+  font-family: $primary-font;
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
