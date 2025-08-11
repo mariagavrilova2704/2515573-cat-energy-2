@@ -4,13 +4,13 @@
 }
 
 .products__weight {
+  position: relative;
   background-color: #f2f2f2;
   width: 570px;
   padding: 41px 61px 55px 52px;
 }
 
 .products__subtitle {
-  position: relative;
   margin: 0;
   font-family: $primary-font;
   font-weight: 400;
@@ -24,16 +24,19 @@
   }
 }
 
-.products__subtitle::before {
+.products__weight::before {
   content: "";
   width: 100px;
   height: 100px;
   display: block;
   background-color: #68b738;
   border-radius: 50%;
+  position: absolute;
+  top: 47px;
+  left: 52px;
 }
 
-.products__subtitle--loss::after {
+.products__weight--loss::after {
   content: "";
   background-image: url("../../icons/stack.svg#icon-blackcat");
   background-repeat: no-repeat;
@@ -41,11 +44,11 @@
   width: 70px;
   height: 97px;
   position: absolute;
-  top: -6px;
-  left: 15px;
+  top: 0;
+  left: 0;
 }
 
-.products__subtitle--gain::after {
+.products__weight--gain::after {
   content: "";
   background-image: url("../../icons/stack.svg#icon-leopard");
   background-repeat: no-repeat;
@@ -67,6 +70,7 @@
   @media (min-width: $tablet-width) {
     font-size: 16px;
     line-height: 24px;
+    padding: 186px 65px 116px 52px;
   }
 }
 
