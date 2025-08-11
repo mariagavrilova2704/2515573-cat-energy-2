@@ -1,0 +1,82 @@
+.production {
+  @media (min-width: $tablet-width) {
+    display: grid;
+    grid-template-columns: 340px 340px;
+    gap: 60px 60px;
+    padding-top: 84px;
+    padding-bottom: 71px;
+    text-align: center;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: grid;
+    grid-template-columns: 245px 245px 245px 245px;
+    gap: 63px 80px;
+    padding-top: 84px;
+    padding-bottom: 71px;
+  }
+}
+
+.production__subtitle {
+  margin: 0;
+  font-family: $primary-font;
+  font-family: "Oswald", sans-serif;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #222222;
+
+  padding-left: 53px;
+  padding-right: 52px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+.production__card {
+  background: linear-gradient(0deg, #f2f2f2 90%, #ffffff 90%);
+}
+
+.production__table {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+.production__btn {
+  width: 280px;
+  margin-bottom: 40px;
+
+  @media (min-width: $tablet-width) {
+    width: 250px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 169px;
+  }
+}
+
+.more-products {
+  color: #111111;
+}
+.production__text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+
