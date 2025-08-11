@@ -1,6 +1,13 @@
 .promotions__subtitle {
   margin: 0;
   font-family: $primary-font;
+.promotions {
+
+}
+
+.promotions__subtitle {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 24px;
@@ -20,6 +27,8 @@
 .promotions__description {
   margin: 0;
   font-family: $primary-font;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -38,11 +47,20 @@
 
 .promotions__field {
   font-family: $primary-font;
+
+}
+
+.promotions__field {
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 100%;
   color: #444444;
   text-transform: uppercase;
+
+  @media (min-resolution: 280px) {
+    width: 280px;
+  }
 
   @media (min-width: $tablet-width) {
     width: 376px;
@@ -58,6 +76,7 @@
   border: none;
   text-transform: uppercase;
   font-family: $primary-font;
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 26px;

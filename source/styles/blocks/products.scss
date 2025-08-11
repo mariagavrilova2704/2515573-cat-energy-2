@@ -8,11 +8,16 @@
   background-color: #f2f2f2;
   width: 570px;
   padding: 41px 61px 55px 52px;
+
+}
+
+.products__weightloss {
 }
 
 .products__subtitle {
   margin: 0;
   font-family: $primary-font;
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 37px;
@@ -23,7 +28,6 @@
     line-height: 36px;
   }
 }
-
 .products__weight::before {
   content: "";
   width: 100px;
@@ -59,7 +63,6 @@
   top: 20px;
   left: -19px;
 }
-
 .products__description {
   margin: 0;
   font-weight: 400;
@@ -76,6 +79,7 @@
 
 .products__link {
   font-family: $primary-font;
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
@@ -86,4 +90,7 @@
     font-size: 20px;
     line-height: 100%;
   }
+}
+.products__weightgain {
+
 }
